@@ -1,4 +1,4 @@
-function dx=model_clamping(t,x)
+function dx=model_backcalculation(t,x)
 % Стабілізація кута тангажу літака обмеженим PID регулятором
 % Змінні вектора х:
 % x(1) - кут атаки
